@@ -428,18 +428,49 @@ body.nav-fixed > #header {
     }
 }
 
-#areas {
-    > div {
-        height: 400px;
-    }
-    @media (min-width: 992px) {
-        overflow: hidden;
-        > div {
-            float: left;
-            width: 50%;
+#departs {
+    background-image: url(/images/bg_business.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    .depart {
+        color: #fff;
+        h2 {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .details {
+            
+        }
+        .figure {
+            
         }
     }
-    
+    #trade {
+        position: relative;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        .details {
+            position: relative;
+            z-index: 1;
+            color: #000;
+        }
+        .figure {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(/images/img_trade.jpg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+            z-index: 0;
+        }
+    }
+    #duty-free {
+        display: none;
+    }
 }
 
 #footer {

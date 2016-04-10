@@ -332,14 +332,37 @@ body.nav-fixed > #header {
         #contact .office-item .map {
           height: 415px; } }
 
-#areas > div {
-  height: 400px; }
-@media (min-width: 992px) {
-  #areas {
-    overflow: hidden; }
-    #areas > div {
-      float: left;
-      width: 50%; } }
+#departs {
+  background-image: url(/images/bg_business.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover; }
+  #departs .depart {
+    color: #fff; }
+    #departs .depart h2 {
+      margin-top: 0;
+      margin-bottom: 0; }
+  #departs #trade {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px; }
+    #departs #trade .details {
+      position: relative;
+      z-index: 1;
+      color: #000; }
+    #departs #trade .figure {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url(/images/img_trade.jpg);
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      z-index: 0; }
+  #departs #duty-free {
+    display: none; }
 
 #footer {
   padding-top: 30px;

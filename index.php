@@ -18,7 +18,7 @@
         <ul class="nav nav-tabs" role="tablist">
             <li role="presentation"><a href="#home">WOORIMTRADE</a></li>
             <li role="presentation"><a href="#about">우림트레이드 소개</a></li>
-            <li role="presentation"><a href="#areas">사업분야</a></li>
+            <li role="presentation"><a href="#departs">사업분야</a></li>
             <li role="presentation"><a href="#partners">PARTNERS</a></li>
             <li role="presentation"><a href="#contact">CONTACT US</a></li>
         </ul>
@@ -32,7 +32,7 @@
                 <div class="scrollspy col-xs-12 col-md-8 col-md-offset-1" id="gnb">
                     <ul class="row nav nav-tabs" role="tablist">
                         <li class="col-xs-3" role="presentation"><a href="#about"><span class="hidden-xs">우림트레이드</span> 소개</a></li>
-                        <li class="col-xs-3" role="presentation"><a href="#areas">사업분야</a></li>
+                        <li class="col-xs-3" role="presentation"><a href="#departs">사업분야</a></li>
                         <li class="col-xs-3" role="presentation"><a href="#partners">PARTNERS</a></li>
                         <li class="col-xs-3" role="presentation"><a href="#contact">CONTACT<span class="hidden-xs"> US</span></a></li>
                     </ul>
@@ -80,48 +80,44 @@
             </div>
         </div>
     </section>
-    <section id="areas">
-        <div id="area-1">
-            <ul class="slide">
-                <li class="details">
-                    <div>
-                        <h2>TRADE</h2>
-                        <hr>
-                        <p>GLOBAL SOURCING &amp; NETWORKS</p>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <p>
-                            우림트레이드는 해외의 좋은 브랜드를<br>
-                            수입·유통 할뿐만 아니라<br>
-                            세계의 파트너사 들과 협력하여 한국의<br>
-                            좋은 브랜드를 수출하고 있습니다
-                        </p>
-                    </div>
-                </li>
-                <li class="figure"></li>
-            </ul>
-        </div>
-        <div id="area-2">
-            <ul class="slide">
-                <li class="figure"></li>
-                <li class="details">
-                    <div>
-                        <h2>DUTY FREE<br>RETAIL</h2>
-                        <hr>
-                        <ul>
-                            <li></li>
-                        </ul>
-                        <p>
-                            국내 유명 면세점들과 파트너 관계를 맺어<br>
-                            브랜드 입점시키며 <strong>국내 면세 시장과 함께<br>
-                            발전</strong>해 나가고 있습니다.
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </div>
+    <section id="departs">
+        <section id="trade" class="depart">
+            <div class="details">
+                <div class="section-header">
+                    <h2>TRADE</h2>
+                    <hr>
+                    <p>GLOBAL SOURCING &amp; NETWORKS</p>
+                </div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p>
+                    우림트레이드는 해외의 좋은 브랜드를<br>
+                    수입·유통 할뿐만 아니라<br>
+                    세계의 파트너사 들과 협력하여 한국의<br>
+                    좋은 브랜드를 수출하고 있습니다
+                </p>
+            </div>
+            <div class="figure"></div>
+        </section>
+        <section id="duty-free" class="depart">
+            <div class="figure"></div>
+            <div class="details">
+                <div class="section-header">
+                    <h2>DUTY FREE<br>RETAIL</h2>
+                </div>
+                <hr>
+                <ul>
+                    <li></li>
+                </ul>
+                <p>
+                    국내 유명 면세점들과 파트너 관계를 맺어<br>
+                    브랜드 입점시키며 <strong>국내 면세 시장과 함께<br>
+                    발전</strong>해 나가고 있습니다.
+                </p>
+            </div>
+        </section>
     </section>
     <section id="partners">
         <div class="container">
@@ -283,6 +279,7 @@
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/common.js"></script>
     <script>
+        /*
         (function($) {
             $('#area-1 .slide').bxSlider({
                 //mode: 'vertical',
@@ -298,6 +295,7 @@
                 autoDirection: 'prev'
             });
         })(jQuery);
+        */
     </script>
 </body>
 </html>
