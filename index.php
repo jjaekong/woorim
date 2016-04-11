@@ -294,22 +294,5 @@
     <script src="/js/jquery.bxslider.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/common.js"></script>
-    <script>
-        (function($) {
-            var $departSlider = $('#departs > div').bxSlider({
-                mode: 'fade',
-                auto: false,
-                pager: false,
-                controls: false,
-                adaptiveHeight: true
-            });
-            $(document).on('click', '#departs .btn-prev', function() {
-                $departSlider.goToPrevSlide();
-            });
-            $(document).on('click', '#departs .btn-next', function() {
-                $departSlider.goToNextSlide();
-            });
-        })(jQuery);
-    </script>
 </body>
 </html>

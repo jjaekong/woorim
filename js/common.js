@@ -49,4 +49,19 @@
         }
     });
     
+    // 사업영역 슬라이드
+    var $departSlider = $('#departs > div').bxSlider({
+        mode: 'fade',
+        auto: false,
+        pager: false,
+        controls: false,
+        adaptiveHeight: true
+    });
+    $(document).on('click', '#departs .btn-prev', function() {
+        $departSlider.goToPrevSlide();
+    });
+    $(document).on('click', '#departs .btn-next', function() {
+        $departSlider.goToNextSlide();
+    });
+    
 })(jQuery);
