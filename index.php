@@ -23,7 +23,7 @@
             <li role="presentation"><a href="#contact">CONTACT US</a></li>
         </ul>
     </nav>
-    <header id="header" role="navigation">
+    <header id="header">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3 hidden-xs hidden-sm">
@@ -80,45 +80,61 @@
             </div>
         </div>
     </section>
-    <section id="departs">
-        <section id="trade" class="depart">
-            <div class="details">
-                <div class="section-header">
-                    <h2>TRADE</h2>
-                    <hr>
-                    <p>GLOBAL SOURCING &amp; NETWORKS</p>
+    <div id="departs">
+        <div>
+            <section id="trade" class="depart">
+                <div class="details">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="section-header">
+                                    <h2>TRADE</h2>
+                                    <hr>
+                                    <p>GLOBAL SOURCING &amp; NETWORKS</p>
+                                </div>
+                                <ul class="row">
+                                    <li class="col-xs-3 col-xs-offset-3"><img class="img-responsive" src="images/img_lipstick.png" alt=""></li>
+                                    <li class="col-xs-4"><img class="img-responsive" src="images/img_fruit.png" alt=""></li>
+                                </ul>
+                                <p>
+                                    우림트레이드는 해외의 좋은 브랜드를<br>
+                                    수입·유통 할뿐만 아니라<br>
+                                    세계의 파트너사 들과 협력하여 한국의<br>
+                                    좋은 브랜드를 수출하고 있습니다
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <ul>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <p>
-                    우림트레이드는 해외의 좋은 브랜드를<br>
-                    수입·유통 할뿐만 아니라<br>
-                    세계의 파트너사 들과 협력하여 한국의<br>
-                    좋은 브랜드를 수출하고 있습니다
-                </p>
-            </div>
-            <div class="figure"></div>
-        </section>
-        <section id="duty-free" class="depart">
-            <div class="figure"></div>
-            <div class="details">
-                <div class="section-header">
-                    <h2>DUTY FREE<br>RETAIL</h2>
+                <div class="figure"></div>
+            </section>
+            <section id="duty-free" class="depart">
+                <div class="details">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-6">
+                                <div class="section-header">
+                                    <h2>DUTY FREE<br>RETAIL</h2>
+                                    <hr>
+                                </div>
+                                <ul class="row">
+                                    <li class="col-xs-3 col-xs-offset-5"><img class="img-responsive" src="images/img_lipstick.png" alt=""></li>
+                                </ul>
+                                <p>
+                                    국내 유명 면세점들과 파트너 관계를 맺어<br>
+                                    브랜드 입점시키며 <strong>국내 면세 시장과 함께<br>
+                                    발전</strong>해 나가고 있습니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <hr>
-                <ul>
-                    <li></li>
-                </ul>
-                <p>
-                    국내 유명 면세점들과 파트너 관계를 맺어<br>
-                    브랜드 입점시키며 <strong>국내 면세 시장과 함께<br>
-                    발전</strong>해 나가고 있습니다.
-                </p>
-            </div>
-        </section>
-    </section>
+                <div class="figure"></div>
+            </section>
+        </div>
+        <button type="button" class="btn btn-prev"><span class="glyphicon glyphicon-menu-left"></span></button>
+        <button type="button" class="btn btn-next"><span class="glyphicon glyphicon-menu-right"></span></button>
+    </div>
     <section id="partners">
         <div class="container">
             <div class="section-header">
@@ -131,7 +147,7 @@
                         <img class="img-responsive" src="/images/img_partner_banner_1.png" alt="">
                     </a>
                 </li>
-                <li class="col-xs-6 col-md-3 partner-item">
+                <li class="col-xs-6 col-sm-5 col-md-3 partner-item">
                     <a href="#">
                         <img class="img-responsive" src="/images/img_partner_banner_2.png" alt="">
                     </a>
@@ -141,7 +157,7 @@
                         <img class="img-responsive" src="/images/img_partner_banner_3.png" alt="">
                     </a>
                 </li>
-                <li class="col-xs-6 col-md-3 partner-item">
+                <li class="col-xs-6 col-sm-5 col-md-3 partner-item">
                     <a href="#">
                         <img class="img-responsive" src="/images/img_partner_banner_4.png" alt="">
                     </a>
@@ -151,7 +167,7 @@
                         <img class="img-responsive" src="/images/img_partner_banner_5.png" alt="">
                     </a>
                 </li>
-                <li class="col-xs-6 col-md-3 partner-item">
+                <li class="col-xs-6 col-sm-5 col-md-3 partner-item">
                     <a href="#">
                         <img class="img-responsive" src="/images/img_partner_banner_6.png" alt="">
                     </a>
@@ -161,7 +177,7 @@
                         <img class="img-responsive" src="/images/img_partner_banner_7.png" alt="">
                     </a>
                 </li>
-                <li class="col-xs-6 col-md-3 partner-item">
+                <li class="col-xs-6 col-sm-5 col-md-3 partner-item">
                     <a href="#">
                         <img class="img-responsive" src="/images/img_partner_banner_8.png" alt="">
                     </a>
@@ -279,23 +295,21 @@
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/common.js"></script>
     <script>
-        /*
         (function($) {
-            $('#area-1 .slide').bxSlider({
-                //mode: 'vertical',
-                auto: true,
-                pager: false,
-                controls: false
-            });
-            $('#area-2 .slide').bxSlider({
-                //mode: 'vertical',
-                auto: true,
+            var $departSlider = $('#departs > div').bxSlider({
+                mode: 'fade',
+                auto: false,
                 pager: false,
                 controls: false,
-                autoDirection: 'prev'
+                adaptiveHeight: true
+            });
+            $(document).on('click', '#departs .btn-prev', function() {
+                $departSlider.goToPrevSlide();
+            });
+            $(document).on('click', '#departs .btn-next', function() {
+                $departSlider.goToNextSlide();
             });
         })(jQuery);
-        */
     </script>
 </body>
 </html>
