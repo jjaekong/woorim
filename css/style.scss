@@ -39,6 +39,25 @@ address {
         vertical-align: middle;
     }
 }
+.modal {
+    .modal-content {
+        border-radius: 0;
+        box-shadow: none;
+        border: 0;
+        background-color: transparent;
+        .modal-header {
+            border-bottom: 0;
+            .close {
+                margin-right: -15px;
+                color: #fff;
+                opacity: 1;
+            }
+        }
+        .modal-body {
+            background-color: #fff;
+        }
+    }
+}
 
 #indicator {
     display: none;
@@ -618,6 +637,111 @@ body.nav-fixed > #header {
             i {
                 font-style: normal;
                 color: #999;
+            }
+        }
+    }
+}
+
+#ceo-modal {
+    margin-top: 50px;
+    @media (min-width: 1200px) {
+        margin-top: 150px;
+    }
+    .modal-dialog {
+        position: relative;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        @media (min-width: 768px) {
+            width: 450px;
+        }
+        @media (min-width: 1200px) {
+            width: 850px;
+        }
+        .modal-header {
+            .close {
+                @media (min-width: 1200px) {
+                    float: left;
+                    margin-left: -15px;
+                }
+            }
+        }
+        .modal-body {
+            overflow: hidden;
+            height: 260px;
+            background-image: url(/images/bg_ceo_xs.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            p {
+                letter-spacing: -1px;
+                &:nth-of-type(1) {
+                    font-size: 14px;
+                    color: #000;
+                    i {
+                        background-color: orange;
+                        color: #fff;
+                        font-style: normal;
+                    }
+                }
+                &:nth-of-type(3) {
+                    position: absolute;
+                    bottom: 0;
+                    right: -10px;
+                    width: 180px;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            hr {
+                width: 100px;
+                margin: 15px 0;
+                border-top: 1px solid #000;
+            }
+            @media (min-width: 768px) {
+                height: 400px;
+                padding: 30px;
+                p {
+                    &:nth-of-type(1) {
+                        font-size: 20px;
+                        line-height: 1.6em;
+                    }
+                    &:nth-of-type(2) {
+                        font-size: 14px;
+                        line-height: 1.6em;
+                    }
+                    &:nth-of-type(3) {
+                        right: -10px;
+                        width: 290px;
+                    }
+                }
+                hr {
+                    margin: 20px 0;
+                }
+            }
+            @media (min-width: 1200px) {
+                overflow: visible;
+                height: 400px;
+                padding: 60px 30px;
+                p {
+                    &:nth-of-type(1) {
+                        font-size: 30px;
+                    }
+                    &:nth-of-type(2) {
+                        font-size: 18px;
+                        
+                    }
+                    &:nth-of-type(3) {
+                        right: -140px;
+                        width: 450px;
+                        
+                    }
+                }
+                hr {
+                    width: 200px;
+                    margin: 30px 0;
+                }
             }
         }
     }

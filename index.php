@@ -72,7 +72,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6">
-                    <a class="about-item" href="#">
+                    <a class="about-item" href="#" data-toggle="modal" data-target="#ceo-modal">
                         <h3>CEO 인사말</h3>
                         <p>CEO GREETING</p>
                     </a>
@@ -288,6 +288,21 @@
             </div>
         </div>
     </footer>
+    <div id="ceo-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                  <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><img src="/images/btn_close.png" alt="닫기"></button>
+                  </div>
+                  <div class="modal-body">
+                      <p>큰 회사 보다는 <i>실력 있는</i> 회사<br><i>성실함</i>이 최고의 기업가치임을 아는 회사<br>꾸준히 <i>성장하는</i> 회사</p>
+                      <hr>
+                      <p>이 모든 것이 유통 전문회사<br>(주)우림트레이드 사업 방향입니다.</p>
+                      <p><img src="/images/img_ceo.png" alt=""></p>
+                  </div>
+            </div>
+        </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="/js/jquery.mobile.custom.min.js"></script>
     <script src="/js/jquery.mousewheel.min.js"></script>
