@@ -1,21 +1,21 @@
 (function($) {
     
-    $('#wrapper').scrollspy({ target: '.scrollspy' });
+    $('body').scrollspy({ target: '.scrollspy' });
     
     // GNB, 인디케이터 클릭
     $(document).on('click', '#indicator > .nav > li > a, #gnb > .nav > li > a', function(e) {
         e.preventDefault();
         var hash = $(this).attr('href');
-        //console.log( $(hash).offset() );
-        $('#wrapper').stop().animate({
-            scrollTop: $('#wrapper').scrollTop() + $(hash).offset().top
+        console.log( $(hash).offset() );
+        $('html, body').stop().animate({
+            scrollTop: $(hash).offset().top
         }, 500, 'swing');
     });
     
     // 로고 클릭
     $(document).on('click', '#header .logo > a', function(e) {
         e.preventDefault();
-        $('#wrapper').stop().animate({
+        $('body').stop().animate({
             scrollTop: 0
         }, 500, 'swing');
     });
@@ -33,9 +33,9 @@
     */
     
     // 네비게이션 fixed
-    $('#wrapper').on('scroll', function(event) {
+    $(window).on('scroll', function(event) {
         // console.log( $(this).scrollTop(), $('body').height() );
-        if ( $('#wrapper').scrollTop() < $('#wrapper').height() ) {
+        if ( $('body').scrollTop() < $('body').height() ) {
             $('body').removeClass('nav-fixed');
         } else {
             $('body').addClass('nav-fixed');
