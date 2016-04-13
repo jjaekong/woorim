@@ -1,28 +1,21 @@
 (function($) {
     
-    $('body').scrollspy({ target: '.scrollspy' });
-    
-    /*
-    $(window).on('resize', function(event) {
-        //$(this).scrollspy('refresh');
-        //$(this).scrollspy({ target: "#indicator, #gnb" });
-        $('.scrollspy:eq(1)').find('.active > a').trigger('click');
-    });
-    */
+    $('#wrapper').scrollspy({ target: '.scrollspy' });
     
     // GNB, 인디케이터 클릭
     $(document).on('click', '#indicator > .nav > li > a, #gnb > .nav > li > a', function(e) {
         e.preventDefault();
         var hash = $(this).attr('href');
-        $('html, body').stop().animate({
-            scrollTop: $(hash).offset().top
+        //console.log( $(hash).offset() );
+        $('#wrapper').stop().animate({
+            scrollTop: $('#wrapper').scrollTop() + $(hash).offset().top
         }, 500, 'swing');
     });
     
     // 로고 클릭
-    $(document).on('click', '#nav .logo > a', function(e) {
+    $(document).on('click', '#header .logo > a', function(e) {
         e.preventDefault();
-        $('html, body').stop().animate({
+        $('#wrapper').stop().animate({
             scrollTop: 0
         }, 500, 'swing');
     });
@@ -40,9 +33,9 @@
     */
     
     // 네비게이션 fixed
-    $(window).on('scroll', function(event) {
+    $('#wrapper').on('scroll', function(event) {
         // console.log( $(this).scrollTop(), $('body').height() );
-        if ( $(this).scrollTop() < $('body').height() ) {
+        if ( $('#wrapper').scrollTop() < $('#wrapper').height() ) {
             $('body').removeClass('nav-fixed');
         } else {
             $('body').addClass('nav-fixed');
@@ -55,7 +48,8 @@
         auto: false,
         pager: false,
         controls: false,
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        preventDefaultSwipeX: true
     });
     $(document).on('click', '#departs .btn-prev', function() {
         $departSlider.goToPrevSlide();
