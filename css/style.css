@@ -174,11 +174,17 @@ body.nav-fixed #header {
       #home .container > .row > div {
         height: 100%; }
   #home .logo {
+    position: relative;
     margin-top: 0;
     margin-bottom: 50px; }
     @media (min-width: 1280px) {
       #home .logo {
         margin-bottom: 70px; } }
+    #home .logo img {
+      width: 100%; }
+      @media (min-width: 1200px) {
+        #home .logo img {
+          width: auto; } }
   #home p {
     color: #fff;
     text-align: center;

@@ -44,7 +44,7 @@
 	<section id="home">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-lg-6 col-lg-offset-3">
+				<div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-6 col-lg-offset-3">
 					<div class="table-box">
 						<div class="table-cell">
 							<h1 class="logo"><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></h1>
