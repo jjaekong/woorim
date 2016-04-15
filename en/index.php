@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="format-detection" content="telephone=no">
-	<title>우림트레이드</title>
+	<title>WOORIMTRADE</title>
 	<link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet'>
 	<link href="/en/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/en/css/style.css" rel="stylesheet">

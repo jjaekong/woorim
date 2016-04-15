@@ -244,8 +244,9 @@ body.nav-fixed #header {
       background-color: #ff7f00; }
     #about .about-item h3 {
       margin-top: 0;
-      margin-bottom: 5px;
-      font-size: 16px; }
+      margin-bottom: 0;
+      font-size: 16px;
+      line-height: 40px; }
     #about .about-item p {
       font-size: 12px; }
     @media (min-width: 768px) {
@@ -256,7 +257,7 @@ body.nav-fixed #header {
     @media (min-width: 992px) {
       #about .about-item {
         height: 300px;
-        padding-top: 120px; }
+        padding-top: 130px; }
         #about .about-item:active, #about .about-item:hover, #about .about-item:focus {
           background-image: url(/images/ico_diagonal.png);
           background-repeat: no-repeat;

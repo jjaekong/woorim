@@ -288,8 +288,9 @@ body.nav-fixed #header {
         }
         h3 {
             margin-top: 0;
-            margin-bottom: 5px;
+            margin-bottom: 0;
             font-size: 16px;
+            line-height: 40px;
         }
         p {
             font-size: 12px;
@@ -301,7 +302,7 @@ body.nav-fixed #header {
         }
         @media (min-width: 992px) {
             height: 300px;
-            padding-top: 120px;
+            padding-top: 130px;
             &:active,
             &:hover,
             &:focus {
