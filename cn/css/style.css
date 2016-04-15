@@ -576,7 +576,8 @@ body.nav-fixed #header {
       #introduce-modal .modal-dialog .modal-body hr {
         width: 100px;
         margin: 15px 0;
-        border-top: 1px solid #000; }
+        border-top: 1px solid #000;
+        text-align: left; }
       @media (min-width: 768px) {
         #introduce-modal .modal-dialog .modal-body {
           height: 400px;
