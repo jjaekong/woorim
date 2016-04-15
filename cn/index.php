@@ -44,11 +44,11 @@
 	<section id="home">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-lg-6 col-lg-offset-3">
+				<div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-6 col-lg-offset-3">
 					<div class="table-box">
 						<div class="table-cell">
 							<h1 class="logo"><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></h1>
-							<p>GLOBAL TRANE AND <br class="visible-xs-block visible-sm-block visible-md-block">RETAIL SPECIALIST</p>
+							<p>GLOBAL TRANE AND <br>DUTY FREE RETAIL SPEICIALIST</p>
 						</div>
 					</div>
 				</div>
@@ -83,7 +83,30 @@
 	</section>
 	<div id="departs">
 		<div>
-			<section id="trade" class="depart">
+			<section id="duty-free" class="depart">
+				<div class="details">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-6">
+								<div class="section-header">
+									<h2>DUTY FREE<br>RETAIL</h2>
+									<hr>
+								</div>
+								<ul class="row">
+									<li class="col-xs-3 col-xs-offset-5"><img class="img-responsive" src="images/img_lipstick.png" alt=""></li>
+								</ul>
+								<p>
+									국내 유명 면세점들과 파트너 관계를 맺어<br>
+									브랜드 입점시키며 <strong>국내 면세 시장과 함께<br>
+									발전</strong>해 나가고 있습니다.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="figure"></div>
+			</section>
+            <section id="trade" class="depart">
 				<div class="details">
 					<div class="container">
 						<div class="row">
@@ -102,29 +125,6 @@
 									수입·유통 할뿐만 아니라<br>
 									세계의 파트너사 들과 협력하여 한국의<br>
 									좋은 브랜드를 수출하고 있습니다
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="figure"></div>
-			</section>
-			<section id="duty-free" class="depart">
-				<div class="details">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-6 col-md-offset-6">
-								<div class="section-header">
-									<h2>DUTY FREE<br>RETAIL</h2>
-									<hr>
-								</div>
-								<ul class="row">
-									<li class="col-xs-3 col-xs-offset-5"><img class="img-responsive" src="images/img_lipstick.png" alt=""></li>
-								</ul>
-								<p>
-									국내 유명 면세점들과 파트너 관계를 맺어<br>
-									브랜드 입점시키며 <strong>국내 면세 시장과 함께<br>
-									발전</strong>해 나가고 있습니다.
 								</p>
 							</div>
 						</div>

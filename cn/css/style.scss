@@ -207,10 +207,17 @@ body.nav-fixed #header {
         }
     }
     .logo {
+        position: relative;
         margin-top: 0;
         margin-bottom: 50px;
         @media (min-width: 1280px) {
             margin-bottom: 70px;
+        }
+        img {
+            width: 100%;
+            @media (min-width: 1200px) {
+                width: auto;
+            }
         }
     }
     p {

@@ -34,8 +34,8 @@
     
     // 네비게이션 fixed
     $(window).on('scroll', function(event) {
-        // console.log( $(this).scrollTop(), $('body').height() );
-        if ( $('body').scrollTop() < $('body').height() ) {
+        //console.log( $(this).scrollTop(), $('body').height() );
+        if ( $(this).scrollTop() < $('body').height() ) {
             $('body').removeClass('nav-fixed');
         } else {
             $('body').addClass('nav-fixed');
