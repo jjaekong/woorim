@@ -176,29 +176,70 @@ body.nav-fixed #header {
   #home .logo {
     position: relative;
     margin-top: 0;
-    margin-bottom: 50px; }
-    @media (min-width: 1280px) {
+    margin-bottom: 30px; }
+    @media (min-width: 992px) {
       #home .logo {
-        margin-bottom: 70px; } }
+        margin-bottom: 40px; } }
     #home .logo img {
       width: 100%; }
       @media (min-width: 1200px) {
         #home .logo img {
           width: auto; } }
   #home p {
+    margin-bottom: 30px;
     color: #fff;
     text-align: center;
     line-height: 1.4em;
     text-shadow: 0 1px 0 #000; }
     @media (min-width: 768px) {
       #home p {
+        margin-bottom: 40px;
         font-size: 16px; } }
     @media (min-width: 992px) {
       #home p {
+        margin-bottom: 50px;
         font-size: 18px; } }
     @media (min-width: 1280px) {
       #home p {
+        margin-bottom: 60px;
         font-size: 25px; } }
+  #home ul {
+    text-align: center; }
+    #home ul li {
+      display: inline-block;
+      margin-left: 5px;
+      margin-right: 5px; }
+      @media (min-width: 1280px) {
+        #home ul li {
+          margin-left: 10px;
+          margin-right: 10px; } }
+      #home ul li a {
+        display: block;
+        border: 1px solid #fff;
+        width: 70px;
+        height: 30px;
+        line-height: 28px;
+        background-color: transparent;
+        color: #fff;
+        text-decoration: none;
+        font-size: 12px; }
+        #home ul li a:focus, #home ul li a:hover, #home ul li a:active {
+          background-color: #81c41c;
+          border-color: #81c41c; }
+        @media (min-width: 768px) {
+          #home ul li a {
+            width: 100px;
+            height: 35px;
+            font-size: 16px;
+            line-height: 33px; } }
+        @media (min-width: 1280px) {
+          #home ul li a {
+            width: 170px;
+            height: 45px;
+            font-size: 18px;
+            line-height: 43px; } }
+      #home ul li:first-child a {
+        font-family: 'Dotum', sans-serif; }
 
 #about {
   position: relative;
@@ -523,6 +564,30 @@ body.nav-fixed #header {
     @media (min-width: 768px) {
       #footer .company-info {
         text-align: left; } }
+  #footer .global {
+    margin-top: 20px;
+    text-align: center; }
+    #footer .global .btn-language {
+      width: 220px;
+      height: 40px;
+      border-radius: 0;
+      font-size: 12px;
+      background-color: #202020;
+      color: #fff;
+      border: 0; }
+      #footer .global .btn-language span {
+        float: right;
+        margin-top: 8px; }
+    #footer .global .dropdown-menu {
+      margin-top: 0;
+      margin-bottom: 0;
+      border-radius: 0;
+      border: 0;
+      width: 220px;
+      background-color: #363636; }
+      #footer .global .dropdown-menu li a {
+        text-align: center;
+        color: #fff; }
   #footer .copyright p {
     color: #fff;
     text-align: center; }
@@ -552,59 +617,60 @@ body.nav-fixed #header {
         margin-left: -15px; } }
     #introduce-modal .modal-dialog .modal-body {
       overflow: hidden;
-      height: 260px;
+      height: 320px;
       background-image: url(/images/bg_ceo_xs.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: 50% 50%; }
       #introduce-modal .modal-dialog .modal-body p {
-        letter-spacing: -1px; }
+        letter-spacing: -1px;
+        text-align: center; }
         #introduce-modal .modal-dialog .modal-body p:nth-of-type(1) {
+          margin: 10px auto 30px;
+          max-width: 140px; }
+          #introduce-modal .modal-dialog .modal-body p:nth-of-type(1) img {
+            width: 100%; }
+        #introduce-modal .modal-dialog .modal-body p:nth-of-type(2) {
           font-size: 14px;
           color: #000; }
-          #introduce-modal .modal-dialog .modal-body p:nth-of-type(1) i {
+          #introduce-modal .modal-dialog .modal-body p:nth-of-type(2) i {
             background-color: orange;
             color: #fff;
             font-style: normal; }
-        #introduce-modal .modal-dialog .modal-body p:nth-of-type(3) {
-          position: absolute;
-          bottom: 0;
-          right: -10px;
-          width: 180px; }
-          #introduce-modal .modal-dialog .modal-body p:nth-of-type(3) img {
-            width: 100%; }
       #introduce-modal .modal-dialog .modal-body hr {
         width: 100px;
-        margin: 15px 0;
+        margin: 15px auto;
         border-top: 1px solid #000;
-        text-align: left; }
+        text-align: center; }
       @media (min-width: 768px) {
         #introduce-modal .modal-dialog .modal-body {
           height: 400px;
           padding: 30px; }
-          #introduce-modal .modal-dialog .modal-body p:nth-of-type(1) {
+          #introduce-modal .modal-dialog .modal-body p:nth-of-type(2) {
             font-size: 20px;
             line-height: 1.6em; }
-          #introduce-modal .modal-dialog .modal-body p:nth-of-type(2) {
+          #introduce-modal .modal-dialog .modal-body p:nth-of-type(3) {
             font-size: 14px;
             line-height: 1.6em; }
-          #introduce-modal .modal-dialog .modal-body p:nth-of-type(3) {
-            right: -10px;
-            width: 290px; }
           #introduce-modal .modal-dialog .modal-body hr {
-            margin: 20px 0; } }
+            margin: 20px auto; } }
       @media (min-width: 1200px) {
         #introduce-modal .modal-dialog .modal-body {
-          overflow: visible;
           height: 400px;
           padding: 60px 30px; }
-          #introduce-modal .modal-dialog .modal-body p:nth-of-type(1) {
-            font-size: 30px; }
-          #introduce-modal .modal-dialog .modal-body p:nth-of-type(2) {
-            font-size: 18px; }
-          #introduce-modal .modal-dialog .modal-body p:nth-of-type(3) {
-            right: -140px;
-            width: 450px; }
+          #introduce-modal .modal-dialog .modal-body p {
+            text-align: left; }
+            #introduce-modal .modal-dialog .modal-body p:nth-of-type(1) {
+              font-size: 30px;
+              position: absolute;
+              right: 45px;
+              top: 100px;
+              width: 250px;
+              max-width: none; }
+            #introduce-modal .modal-dialog .modal-body p:nth-of-type(2) {
+              font-size: 30px; }
+            #introduce-modal .modal-dialog .modal-body p:nth-of-type(3) {
+              font-size: 18px; }
           #introduce-modal .modal-dialog .modal-body hr {
             width: 200px;
             margin: 30px 0; } }

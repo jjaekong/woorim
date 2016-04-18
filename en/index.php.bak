@@ -245,18 +245,6 @@
 						<i>SITE BY MOVEMENT K GROUP.</i>
 					</p>
 				</div>
-                <div class="global">
-                    <div class="btn-group dropup">
-                        <button class="btn btn-default dropdown-toggle btn-language" type="button" id="global-sites" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            ENGLISH
-                            <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="global-sites">
-                            <li><a href="/">한국어</a></li>
-                            <li><a href="/cn">中國語</a></li>
-                        </ul>
-                    </div>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -268,7 +256,7 @@
 						<button type="button" class="close" data-dismiss="modal"><img src="/images/btn_close.png" alt="닫기"></button>
 				  </div>
 				  <div class="modal-body">
-                      <p><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></p>
+					  <p><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></p>
 					  <p>큰 회사 보다는 <i>실력 있는</i> 회사<br><i>성실함</i>이 최고의 기업가치임을 아는 회사<br>꾸준히 <i>성장하는</i> 회사</p>
 					  <hr>
 					  <p>이 모든 것이 유통 전문회사<br>(주)우림트레이드 사업 방향입니다.</p>

@@ -44,11 +44,15 @@
 	<section id="home">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-6 col-lg-offset-3">
+				<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 col-lg-6 col-lg-offset-3">
 					<div class="table-box">
 						<div class="table-cell">
 							<h1 class="logo"><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></h1>
                             <p>GLOBAL TRADE AND <br>DUTY FREE RETAIL SPEICIALIST</p>
+                            <ul>
+                                <li><a href="/cn">中國語</a></li>
+                                <li><a href="/en">ENGLISH</a></li>
+                            </ul>
 						</div>
 					</div>
 				</div>
@@ -279,11 +283,23 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-6">
-				<div class="copyright">
+                <div class="copyright">
 					<p>
 						(c) 2016 woorimtrade. ALL RIGHT RESERVED.<br>
 						<i>SITE BY MOVEMENT K GROUP.</i>
 					</p>
+				</div>
+                <div class="global">
+                    <div class="btn-group dropup">
+                        <button class="btn btn-default dropdown-toggle btn-language" type="button" id="global-sites" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            한국어
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="global-sites">
+                            <li><a href="/cn">中國語</a></li>
+                            <li><a href="/en">ENGLISH</a></li>
+                        </ul>
+                    </div>
 				</div>
 			</div>
 		</div>
@@ -296,10 +312,10 @@
 						<button type="button" class="close" data-dismiss="modal"><img src="/images/btn_close.png" alt="닫기"></button>
 				  </div>
 				  <div class="modal-body">
+                      <p><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></p>
 					  <p>큰 회사 보다는 <i>실력 있는</i> 회사<br><i>성실함</i>이 최고의 기업가치임을 아는 회사<br>꾸준히 <i>성장하는</i> 회사</p>
 					  <hr>
 					  <p>이 모든 것이 유통 전문회사<br>(주)우림트레이드 사업 방향입니다.</p>
-					  <p><img src="/images/img_ceo.png" alt=""></p>
 				  </div>
 			</div>
 		</div>

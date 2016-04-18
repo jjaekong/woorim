@@ -209,9 +209,9 @@ body.nav-fixed #header {
     .logo {
         position: relative;
         margin-top: 0;
-        margin-bottom: 50px;
-        @media (min-width: 1280px) {
-            margin-bottom: 70px;
+        margin-bottom: 30px;
+        @media (min-width: 992px) {
+            margin-bottom: 40px;
         }
         img {
             width: 100%;
@@ -221,18 +221,63 @@ body.nav-fixed #header {
         }
     }
     p {
+		margin-bottom: 30px;
         color: #fff;
         text-align: center;
         line-height: 1.4em;
         text-shadow: 0 1px 0 #000;
         @media (min-width: 768px) {
+			margin-bottom: 40px;
             font-size: 16px;
         }
         @media (min-width: 992px) {
+			margin-bottom: 50px;
             font-size: 18px;
         }
         @media (min-width: 1280px) {
+			margin-bottom: 60px;
             font-size: 25px;
+        }
+    }
+	ul {
+        text-align: center;
+        li {
+            display: inline-block;
+            margin-left: 5px;
+            margin-right: 5px;
+            @media (min-width: 1280px) {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            a {
+                display: block;
+                border: 1px solid #fff;
+                width: 70px;
+                height: 30px;
+                line-height: 28px;
+                background-color: transparent;
+                color: #fff;
+                text-decoration: none;
+                font-size: 12px;
+                &:focus,
+                &:hover,
+                &:active {
+                    background-color: #81c41c;
+                    border-color: #81c41c;
+                }
+                @media (min-width: 768px) {
+                    width: 100px;
+                    height: 35px;
+                    font-size: 16px;
+                    line-height: 33px;
+                }
+                @media (min-width: 1280px) {
+                    width: 170px;
+                    height: 45px;
+                    font-size: 18px;
+                    line-height: 43px;
+                }
+            }
         }
     }
 }
@@ -649,6 +694,37 @@ body.nav-fixed #header {
             text-align: left;
         }
     }
+	.global {
+        margin-top: 20px;
+        text-align: center;
+        .btn-language {
+            width: 220px;
+            height: 40px;
+            border-radius: 0;
+            font-size: 12px;
+            background-color: #202020;
+            color: #fff;
+            border: 0;
+            span {
+                float: right;
+                margin-top: 8px;
+            }
+        }
+        .dropdown-menu {
+            margin-top: 0;
+            margin-bottom: 0;
+            border-radius: 0;
+            border: 0;
+            width: 220px;
+            background-color: #363636;
+            li {
+                a {
+                    text-align: center;
+                    color: #fff;
+                }
+            }
+        }
+    }
     .copyright {
         p {
             color: #fff;
@@ -687,14 +763,22 @@ body.nav-fixed #header {
         }
         .modal-body {
             overflow: hidden;
-            height: 260px;
+            height: 320px;
             background-image: url(/images/bg_ceo_xs.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: 50% 50%;
             p {
                 letter-spacing: -1px;
+				text-align: center;
                 &:nth-of-type(1) {
+                    margin: 10px auto 30px;
+                    max-width: 140px;
+                    img {
+                        width: 100%;
+                    }
+                }
+                &:nth-of-type(2) {
                     font-size: 14px;
                     color: #000;
                     i {
@@ -703,58 +787,48 @@ body.nav-fixed #header {
                         font-style: normal;
                     }
                 }
-                &:nth-of-type(3) {
-                    position: absolute;
-                    bottom: 0;
-                    right: -10px;
-                    width: 180px;
-                    img {
-                        width: 100%;
-                    }
-                }
             }
             hr {
                 width: 100px;
-                margin: 15px 0;
+                margin: 15px auto;
                 border-top: 1px solid #000;
-                text-align: left;
+                text-align: center;
             }
             @media (min-width: 768px) {
                 height: 400px;
                 padding: 30px;
                 p {
-                    &:nth-of-type(1) {
+                    &:nth-of-type(2) {
                         font-size: 20px;
                         line-height: 1.6em;
                     }
-                    &:nth-of-type(2) {
+                    &:nth-of-type(3) {
                         font-size: 14px;
                         line-height: 1.6em;
                     }
-                    &:nth-of-type(3) {
-                        right: -10px;
-                        width: 290px;
-                    }
                 }
                 hr {
-                    margin: 20px 0;
+                    margin: 20px auto;
                 }
             }
             @media (min-width: 1200px) {
-                overflow: visible;
                 height: 400px;
                 padding: 60px 30px;
                 p {
+					text-align: left;
                     &:nth-of-type(1) {
                         font-size: 30px;
+						position: absolute;
+                        right: 45px;
+                        top: 100px;
+                        width: 250px;
+                        max-width: none;
                     }
                     &:nth-of-type(2) {
-                        font-size: 18px;
-                        
+                        font-size: 30px;
                     }
                     &:nth-of-type(3) {
-                        right: -140px;
-                        width: 450px;
+                        font-size: 18px;
                         
                     }
                 }

@@ -278,11 +278,6 @@ body.nav-fixed #header {
                     line-height: 43px;
                 }
             }
-			&:first-child {
-				a {
-					font-family: 'Dotum', sans-serif;
-				}
-			}
         }
     }
 }
@@ -699,37 +694,6 @@ body.nav-fixed #header {
             text-align: left;
         }
     }
-	.global {
-        margin-top: 20px;
-        text-align: center;
-        .btn-language {
-            width: 220px;
-            height: 40px;
-            border-radius: 0;
-            font-size: 12px;
-            background-color: #202020;
-            color: #fff;
-            border: 0;
-            span {
-                float: right;
-                margin-top: 8px;
-            }
-        }
-        .dropdown-menu {
-            margin-top: 0;
-            margin-bottom: 0;
-            border-radius: 0;
-            border: 0;
-            width: 220px;
-            background-color: #363636;
-            li {
-                a {
-                    text-align: center;
-                    color: #fff;
-                }
-            }
-        }
-    }
     .copyright {
         p {
             color: #fff;
@@ -831,7 +795,6 @@ body.nav-fixed #header {
                     }
                     &:nth-of-type(2) {
                         font-size: 30px;
-                        
                     }
                     &:nth-of-type(3) {
                         font-size: 18px;
