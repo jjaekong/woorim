@@ -48,7 +48,7 @@
 					<div class="table-box">
 						<div class="table-cell">
 							<h1 class="logo"><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></h1>
-							<p>GLOBAL TRANE AND <br>DUTY FREE RETAIL SPEICIALIST</p>
+                            <p>GLOBAL TRADE AND <br>DUTY FREE RETAIL SPEICIALIST</p>
 						</div>
 					</div>
 				</div>
