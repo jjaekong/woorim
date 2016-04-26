@@ -264,15 +264,21 @@
 	<div id="introduce-modal" class="modal fade" tabindex="-1" role="dialog">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				  <div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><img src="/images/btn_close.png" alt="닫기"></button>
-				  </div>
-				  <div class="modal-body">
-                      <p><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></p>
-					  <p>큰 회사 보다는 <i>실력 있는</i> 회사<br><i>성실함</i>이 최고의 기업가치임을 아는 회사<br>꾸준히 <i>성장하는</i> 회사</p>
-					  <hr>
-					  <p>이 모든 것이 유통 전문회사<br>(주)우림트레이드 사업 방향입니다.</p>
-				  </div>
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><img src="/images/btn_close.png" alt="닫기"></button>
+				</div>
+				<div class="modal-body">
+                    <p><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></p>
+					<p>
+                        Since 2009, Woorim trade managed to successfully market and promote imported products with its distribution channels.<br>
+                        <br>
+                        Through our past experiences, we have expanded the market in major duty free shops in Korea and have built a powerful brand of our own.<br>
+                        <br>
+                        We are a specialist and a leader in duty free retail and global trade market.<br>
+                        <br>
+                        Thank you.
+                    </p>
+				</div>
 			</div>
 		</div>
 	</div>

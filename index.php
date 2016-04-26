@@ -313,9 +313,10 @@
 				  </div>
 				  <div class="modal-body">
                       <p><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></p>
-					  <p>큰 회사 보다는 <i>실력 있는</i> 회사<br><i>성실함</i>이 최고의 기업가치임을 아는 회사<br>꾸준히 <i>성장하는</i> 회사</p>
-					  <hr>
-					  <p>이 모든 것이 유통 전문회사<br>(주)우림트레이드 사업 방향입니다.</p>
+					  <p>
+                          2009년부터 (주)우림트레이드는<br> 수입 상품의 국내 유통을 기반으로 성장하여<br>
+                          면세 유통 및 무역의 분야 까지 시장을 확대 하여 <i>Partner Brand社 의 판매 증진과 가치 성장</i>을 위해 노력하고 있으며 <i>면세 유통 및 무역 전문 기업</i>으로 꾸준히 성장하고 있습니다.
+                      </p>
 				  </div>
 			</div>
 		</div>

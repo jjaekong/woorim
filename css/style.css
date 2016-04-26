@@ -634,23 +634,13 @@ body.nav-fixed #header {
             background-color: orange;
             color: #fff;
             font-style: normal; }
-      #introduce-modal .modal-dialog .modal-body hr {
-        width: 100px;
-        margin: 15px auto;
-        border-top: 1px solid #000;
-        text-align: center; }
       @media (min-width: 768px) {
         #introduce-modal .modal-dialog .modal-body {
           height: 400px;
           padding: 30px; }
           #introduce-modal .modal-dialog .modal-body p:nth-of-type(2) {
             font-size: 20px;
-            line-height: 1.6em; }
-          #introduce-modal .modal-dialog .modal-body p:nth-of-type(3) {
-            font-size: 14px;
-            line-height: 1.6em; }
-          #introduce-modal .modal-dialog .modal-body hr {
-            margin: 20px auto; } }
+            line-height: 1.6em; } }
       @media (min-width: 1200px) {
         #introduce-modal .modal-dialog .modal-body {
           height: 400px;
@@ -665,11 +655,8 @@ body.nav-fixed #header {
               width: 250px;
               max-width: none; }
             #introduce-modal .modal-dialog .modal-body p:nth-of-type(2) {
-              font-size: 30px; }
-            #introduce-modal .modal-dialog .modal-body p:nth-of-type(3) {
-              font-size: 18px; }
-          #introduce-modal .modal-dialog .modal-body hr {
-            width: 200px;
-            margin: 30px 0; } }
+              margin-top: 30px;
+              width: 450px;
+              font-size: 22px; } }
 
 /*# sourceMappingURL=style.css.map */
