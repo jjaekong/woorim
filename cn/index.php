@@ -164,6 +164,7 @@
 						<img class="img-responsive" src="/images/img_partner_banner_4.png" alt="">
 					</a>
 				</li>
+				<!-- 2016-06-16 파트너사 추가및 변경 요청 
 				<li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
 					<a href="#">
 						<img class="img-responsive" src="/images/img_partner_banner_5.png" alt="">
@@ -173,7 +174,7 @@
 					<a href="#">
 						<img class="img-responsive" src="/images/img_partner_banner_6.png" alt="">
 					</a>
-				</li>
+				</li>-->
 				<li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
 					<a href="#">
 						<img class="img-responsive" src="/images/img_partner_banner_7.png" alt="">
@@ -182,6 +183,37 @@
 				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
 					<a href="#">
 						<img class="img-responsive" src="/images/img_partner_banner_8.png" alt="">
+					</a>
+				</li>
+
+				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
+					<a href="#">
+						<img class="img-responsive" src="/images/img_partner_banner_9.png" alt="">
+					</a>
+				</li>
+				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
+					<a href="#">
+						<img class="img-responsive" src="/images/img_partner_banner_10.png" alt="">
+					</a>
+				</li>
+				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
+					<a href="#">
+						<img class="img-responsive" src="/images/img_partner_banner_11.png" alt="">
+					</a>
+				</li>
+				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
+					<a href="#">
+						<img class="img-responsive" src="/images/img_partner_banner_12.png" alt="">
+					</a>
+				</li>
+				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
+					<a href="#">
+						<img class="img-responsive" src="/images/img_partner_banner_13.png" alt="">
+					</a>
+				</li>
+				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
+					<a href="#">
+						<img class="img-responsive" src="/images/img_partner_banner_14.png" alt="">
 					</a>
 				</li>
 			</ul>
