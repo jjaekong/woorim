@@ -148,23 +148,23 @@
 			</div>
 			<ul class="partner-list">
 				<li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
-					<a href="#">
-						<img class="img-responsive" src="/images/img_partner_banner_1.png" alt="">
+					<a href="http://www.cjfreshway.com" target="_blank">
+						<img class="img-responsive" src="/images/img_partner_banner_1.png" alt="CJ프레시웨이">
 					</a>
 				</li>
 				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
-					<a href="#">
-						<img class="img-responsive" src="/images/img_partner_banner_2.png" alt="">
+					<a href="http://www.shilladfs.com" target="_blank">
+						<img class="img-responsive" src="/images/img_partner_banner_2.png" alt="신라면세점">
 					</a>
 				</li>
 				<li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
-					<a href="#">
-						<img class="img-responsive" src="/images/img_partner_banner_3.png" alt="">
+					<a href="http://www.galleria-dfs.com" target="_blank">
+						<img class="img-responsive" src="/images/img_partner_banner_3.png" alt="한화면세점">
 					</a>
 				</li>
 				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
-					<a href="#">
-						<img class="img-responsive" src="/images/img_partner_banner_4.png" alt="">
+					<a href="http://www.lottedfs.com" target="_blank">
+						<img class="img-responsive" src="/images/img_partner_banner_4.png" alt="롯데면세점">
 					</a>
 				</li>
 				<!-- 2016-06-16 파트너사 추가및 변경 요청 
@@ -179,44 +179,44 @@
 					</a>
 				</li>-->
 				<li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
-					<a href="#">
-						<img class="img-responsive" src="/images/img_partner_banner_7.png" alt="">
+					<a href="http://www.ancors.co.kr" target="_blank">
+						<img class="img-responsive" src="/images/img_partner_banner_7.png" alt="ANCORS(화장품 공장)">
 					</a>
 				</li>
 				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
-					<a href="#">
-						<img class="img-responsive" src="/images/img_partner_banner_8.png" alt="">
+					<a href="http://www.jbs.com.br" target="_blank">
+						<img class="img-responsive" src="/images/img_partner_banner_8.png" alt="JBS">
 					</a>
 				</li>
 
 				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
-					<a href="#">
-						<img class="img-responsive" src="/images/img_partner_banner_9.png" alt="">
+					<a href="http://www.huxley.co.kr" target="_blank">
+						<img class="img-responsive" src="/images/img_partner_banner_9.png" alt="huxley">
 					</a>
 				</li>
 				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
-					<a href="#">
-						<img class="img-responsive" src="/images/img_partner_banner_10.png" alt="">
+					<a href="http://www.sophielagirafecosmetics.co.kr" target="_blank">
+						<img class="img-responsive" src="/images/img_partner_banner_10.png" alt="sophielagirafecosmetics">
 					</a>
 				</li>
 				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
-					<a href="#">
-						<img class="img-responsive" src="/images/img_partner_banner_11.png" alt="">
+					<a href="http://www.phytosuisse.co.kr" target="_blank">
+						<img class="img-responsive" src="/images/img_partner_banner_11.png" alt="phytosuisse">
 					</a>
 				</li>
 				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
-					<a href="#">
-						<img class="img-responsive" src="/images/img_partner_banner_12.png" alt="">
+					<a href="http://www.aminigoods.com" target="_blank">
+						<img class="img-responsive" src="/images/img_partner_banner_12.png" alt="amini">
 					</a>
 				</li>
 				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
-					<a href="#">
-						<img class="img-responsive" src="/images/img_partner_banner_13.png" alt="">
+					<a href="http://www.gongmi.co.kr" target="_blank">
+						<img class="img-responsive" src="/images/img_partner_banner_13.png" alt="공미">
 					</a>
 				</li>
 				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
-					<a href="#">
-						<img class="img-responsive" src="/images/img_partner_banner_14.png" alt="">
+					<a href="http://www.the-muse.co.kr" target="_blank">
+						<img class="img-responsive" src="/images/img_partner_banner_14.png" alt="the-musecosmetics">
 					</a>
 				</li>
 			</ul>
