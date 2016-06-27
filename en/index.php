@@ -76,8 +76,8 @@
 					</a>
 				</div>
 				<div class="col-sm-6">
-					<a class="about-item" href="#" data-toggle="modal" data-target="#ceo-modal">
-						<h3>CEO GREETING</h3>
+					<a class="about-item" href="#" data-toggle="modal" data-target="#history-modal">
+						<h3>COMPANY HISTORY</h3>
 					</a>
 				</div>
 			</div>
@@ -311,6 +311,32 @@
                         Thank you.
                     </p>
 				</div>
+			</div>
+		</div>
+	</div>
+    <div id="history-modal" class="modal fade" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><img src="/images/btn_close.png" alt="닫기"></button>
+				  </div>
+				  <div class="modal-body">
+                      <p><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></p>
+					  <dl>
+                          <dt>2009</dt>
+                          <dd>Importing European food</dd>
+                          <dt>2011</dt>
+                          <dd>Importing Austrailian beef</dd>
+                          <dt>2012</dt>
+                          <dd>Importing U.S beef</dd>
+                          <dt>2013</dt>
+                          <dd>Exporting Korean cosmetic brands</dd>
+                          <dt>2015</dt>
+                          <dd>Hanwha galleria Duty free</dd>
+                          <dt>2016</dt>
+                          <dd>The shilla duty free</dd>
+                      </dl>
+				  </div>
 			</div>
 		</div>
 	</div>

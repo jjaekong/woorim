@@ -768,7 +768,8 @@ body.nav-fixed #header {
         }
         .modal-body {
             overflow: hidden;
-            height: 320px;
+            padding-bottom: 30px;
+            min-height: 320px;
             background-image: url(/images/bg_ceo_xs.jpg);
             background-size: cover;
             background-repeat: no-repeat;
@@ -793,31 +794,16 @@ body.nav-fixed #header {
                     }
                 }
             }
-            hr {
-                width: 100px;
-                margin: 15px auto;
-                border-top: 1px solid #000;
-                text-align: center;
-            }
             @media (min-width: 768px) {
-                height: 400px;
-                padding: 30px;
+                padding: 30px 30px 40px;
                 p {
                     &:nth-of-type(2) {
                         font-size: 20px;
                         line-height: 1.6em;
                     }
-                    &:nth-of-type(3) {
-                        font-size: 14px;
-                        line-height: 1.6em;
-                    }
-                }
-                hr {
-                    margin: 20px auto;
                 }
             }
             @media (min-width: 1200px) {
-                height: 400px;
                 padding: 60px 30px;
                 p {
 					text-align: left;
@@ -825,22 +811,107 @@ body.nav-fixed #header {
                         font-size: 30px;
 						position: absolute;
                         right: 45px;
-                        top: 100px;
+                        top: 140px;
                         width: 250px;
                         max-width: none;
                     }
                     &:nth-of-type(2) {
-                        font-size: 30px;
-                        
-                    }
-                    &:nth-of-type(3) {
-                        font-size: 18px;
-                        
+                        width: 500px;
+                        font-size: 20px;
                     }
                 }
-                hr {
-                    width: 200px;
-                    margin: 30px 0;
+            }
+        }
+    }
+}
+
+#history-modal {
+    margin-top: 50px;
+    @media (min-width: 1200px) {
+        margin-top: 150px;
+    }
+    .modal-dialog {
+        position: relative;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        @media (min-width: 768px) {
+            width: 450px;
+        }
+        @media (min-width: 1200px) {
+            width: 850px;
+        }
+        .modal-header {
+            .close {
+                @media (min-width: 1200px) {
+                    float: left;
+                    margin-left: -15px;
+                }
+            }
+        }
+        .modal-body {
+            overflow: hidden;
+            height: 340px;
+            background-image: url(/images/bg_ceo_xs.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            p {
+                letter-spacing: -1px;
+                text-align: center;
+                margin: 10px auto 20px;
+                max-width: 140px;
+                img {
+                    width: 100%;
+                }
+            }
+            dl {
+                margin: 0 auto 0;
+                width: 240px;
+                font-size: 14px;
+                color: #000;
+                dt {
+                    float: left;
+                    clear: left;
+                    margin-bottom: 5px;
+                }
+                dd {
+                    margin-left: 50px;
+                    margin-bottom: 5px;
+                }
+            }
+            @media (min-width: 768px) {
+                height: 440px;
+                padding: 30px;
+                dl {
+                    margin: 30px auto 0;
+                    width: 340px;
+                    font-size: 20px;
+                    dd {
+                        margin-left: 60px;
+                    }
+                }
+            }
+            @media (min-width: 1200px) {
+                height: 400px;
+                padding: 60px 30px;
+                p {
+                    text-align: left;
+                    font-size: 30px;
+                    position: absolute;
+                    right: 45px;
+                    top: 100px;
+                    width: 250px;
+                    max-width: none;
+                }
+                dl {
+                    margin-top: 40px;
+                    margin-left: 40px;
+                    width: auto;
+                    font-size: 22px;
+                    dd {
+                        margin-left: 80px;
+                    }
                 }
             }
         }

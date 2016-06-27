@@ -77,9 +77,9 @@
 					</a>
 				</div>
 				<div class="col-sm-6">
-					<a class="about-item" href="#" data-toggle="modal" data-target="#ceo-modal">
-						<h3>CEO 인사말</h3>
-						<p>CEO GREETING</p>
+					<a class="about-item" href="#" data-toggle="modal" data-target="#history-modal">
+						<h3>회사 연혁</h3>
+						<p>COMPANY HISTORY</p>
 					</a>
 				</div>
 			</div>
@@ -349,6 +349,32 @@
                           2009년부터 (주)우림트레이드는<br> 수입 상품의 국내 유통을 기반으로 성장하여<br>
                           면세 유통 및 무역의 분야까지 시장을 확대하여 <i>Partner Brand社 의 판매 증진과 가치 성장</i>을 위해 노력하고 있으며 <i>면세 유통 및 무역 전문 기업</i>으로 꾸준히 성장하고 있습니다.
                       </p>
+				  </div>
+			</div>
+		</div>
+	</div>
+    <div id="history-modal" class="modal fade" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><img src="/images/btn_close.png" alt="닫기"></button>
+				  </div>
+				  <div class="modal-body">
+                      <p><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></p>
+					  <dl>
+                          <dt>2009</dt>
+                          <dd>EUROPEAN FOOD 수입</dd>
+                          <dt>2011</dt>
+                          <dd>호주산 소고기 수입</dd>
+                          <dt>2012</dt>
+                          <dd>미국산 소고기 수입</dd>
+                          <dt>2013</dt>
+                          <dd>한국 화장품 수출</dd>
+                          <dt>2015</dt>
+                          <dd>한화 갤러리아 면세점 입점</dd>
+                          <dt>2016</dt>
+                          <dd>신라면세점 입점</dd>
+                      </dl>
 				  </div>
 			</div>
 		</div>
