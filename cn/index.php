@@ -186,7 +186,7 @@
 					</a>
 				</li>
 
-				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
+				<li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
 					<a href="http://www.huxley.co.kr" target="_blank">
 						<img class="img-responsive" src="/images/img_partner_banner_9.png" alt="huxley">
 					</a>
@@ -196,7 +196,7 @@
 						<img class="img-responsive" src="/images/img_partner_banner_10.png" alt="sophielagirafecosmetics">
 					</a>
 				</li>
-				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
+				<li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
 					<a href="http://www.phytosuisse.co.kr" target="_blank">
 						<img class="img-responsive" src="/images/img_partner_banner_11.png" alt="phytosuisse">
 					</a>
@@ -206,7 +206,7 @@
 						<img class="img-responsive" src="/images/img_partner_banner_12.png" alt="amini">
 					</a>
 				</li>
-				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
+				<li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
 					<a href="http://www.gongmi.co.kr" target="_blank">
 						<img class="img-responsive" src="/images/img_partner_banner_13.png" alt="공미">
 					</a>
