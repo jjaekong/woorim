@@ -365,9 +365,9 @@
                           <dt>2009</dt>
                           <dd>EUROPEAN FOOD 수입</dd>
                           <dt>2011</dt>
-                          <dd>호주산 소고기 수입</dd>
+                          <dd>AUS BEEF 수입</dd>
                           <dt>2012</dt>
-                          <dd>미국산 소고기 수입</dd>
+                          <dd>U.S BEEF 수입</dd>
                           <dt>2013</dt>
                           <dd>한국 화장품 수출</dd>
                           <dt>2015</dt>
